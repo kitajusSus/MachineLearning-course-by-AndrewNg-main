@@ -22,9 +22,9 @@ Because the computer gets posibilities to train the model all the time makes it 
 You give your learning algorithms inputs and outputs. By use this data algorithm learns from being given `right answers`
 
 **Examples**
-![alt text](images\image.png)
+![alt text](/\image.png)
 or 
-![alt text](images\image-1.png)
+![alt text](images/image-1.png)
 
 ### Regresion
 When we are trying to predict optimal price for house based on size we can build the model which is using [x,y] => [size, price] to predict the price for every given size. Jutro like linear regresion ` y = ax+b` the algorithm is looking for `a` which is `arctan(y/x)`. After all calculations algorithm is making streight line, basing on this line we can predict the "optimal price" for a house based on it size.
@@ -39,5 +39,5 @@ We are making algorithm which is using clasiffication to look for malignant(real
 Plan:
 * we tell the algorithm the size of the tumor(diameter in cm) 
 * for every tumor there is and  our diagnosis will be (1 for malignant and 0 for benign). Based on this data our algorithm will train to make faster diognosis in future.
-![alt text](images\image-2.png)
+![alt text](images/image-2.png)
 
