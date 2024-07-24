@@ -37,7 +37,24 @@ When we are trying to predict optimal price for house based on size we can build
 **Example** : breast cancer detection
 We are making algorithm which is using clasiffication to look for malignant(really bad) or benign(not that bad) bazed on his size. \\
 Plan:
-* we tell the algorithm the size of the tumor(diameter in cm) 
-* for every tumor there is and  our diagnosis will be (1 for malignant and 0 for benign). Based on this data our algorithm will train to make faster diognosis in future.
+* **Data Collection**: Gather medical records, including tumor characteristics.
+* **Training**: The machine learning model is trained on labeled data, learning to differentiate between benign and malignant tumors.
+* **Prediction**: For new patients, the model predicts the tumor class based on the input features.
 ![alt text](images/image-2.png)
+
+**Classification** :
+* predict categories of the tumor, using  0,1,2. 
+* have small number of possible outputs.
+
+### Two and more inputs
+If we want to use more inputs for example 2 and now we use [[size, age],[diagnosis]] we are able to make more accurate model in making diagnosis.
+
+### Sumary
+**Supervised learning** maps the input `x` to the output `y`:
+* learns from being given `right answers`
+
+**Main types of supervised learning** : 
+* regression - predict the numbers of infinitly many possible outputs
+* Classification - predict categories of the small number of possible outputs. 
+
 
