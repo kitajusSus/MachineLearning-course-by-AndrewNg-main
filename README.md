@@ -22,4 +22,5 @@ You give your learning algorithms inputs and outputs. By use this data algorithm
 
 **Example**
 ![alt text](image.png)
-
+or 
+![alt text](image-1.png)
