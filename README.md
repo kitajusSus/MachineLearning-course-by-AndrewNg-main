@@ -92,7 +92,8 @@ In unsupervised learning data only comes with inputs `x` but not outputs with la
  i use:
  * python 3.12.4
  * miniconda 3
- * (ml_course.ipynb)
+ * [Jupyter testbook 1](ml_course.ipynb)
+
 this program makes work with machine learning easier because you can work with every line of code and its easier to understand your work. 
 
 # 
