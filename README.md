@@ -113,4 +113,25 @@ Notation is:
 **Training example** = (`x_(i)`, `y_(i)`) the i-th example (1nd, 2nd, 3rd, etc)
 
 
+## Linear Regression model part 2 
+ To build linear regression model, we need to have the following:
+ * training set - it has features and targets needed to train our model our (x,y) pairs
+ * then we go to learning algorithm 
+ * f = our function  which is using new `x` to give us the  new `y` (or `y` with hat  is our prediction )based on the training data we done earlier. 
 
+ `x` is called feature, `y` is called prediction (target)
+
+for model on house price it will look like this:
+
+**zise --> f --> price (estimated)**
+
+### How to represent f? 
+
+its asy bruhs:  `y = ax +b `, y(x)= ax+b
+
+### Why we use linear  function when we want to draw streight line?
+Because its relatyvley easy to work with, 
+
+go to [JUPYTER NOTEBOOK 2](ml_course2.ipynb), I forgot to install a lot of libraries on this machine. womp womp situation fr. 
+
+I had probel with vsc couse it didnt saw a packeges in installed. Solving of this problem was to install them by using the terminal in vsc not in anaconda cmd crazy moment sorry I didnt know, but now I do. 
