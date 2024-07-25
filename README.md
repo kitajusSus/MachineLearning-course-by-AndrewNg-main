@@ -57,10 +57,44 @@ If we want to use more inputs for example 2 and now we use [[size, age],[diagnos
 * regression - predict the numbers of infinitly many possible outputs
 * Classification - predict categories of the small number of possible outputs. 
 
+# Chapter 2
+Hello cuties papoties today we gonna learn about (pls dont be scared) unsupervised learning method. POGCHAMP
 ## Unsupervised Learning part 1
-Most used type of learning is the unsupervised learning. Is super just like supervised learning. hi hi. The main change is that (basing on the last example with tumor) we dont tell for algotith what is what. Algorithnm is just grouping the data in clusters thats why the main unsupervised Machine learning algorithm is called Clustering instead of ... idk somehthing else. Example of this algorithm is google news articles. They group the articles based on the similar data/words/dates in this articles that may be related one to another. 
-![alt text](images\google_news.png)
+Most used type of learning is the unsupervised learning. Is super just like supervised learning. hi hi. The main change is that (basing on the last example with tumor) we dont tell for algotith what is what. Algorithnm is just grouping the data in clusters thats why the main unsupervised Machine learning algorithm is called Clustering instead of ... idk somehthing else. 
+
+Example of this algorithm is google news articles. They group the articles based on the similar data/words/dates in this articles that may be related one to another. 
+![alt text](images/google_news.png)
 
 Algorithm is finding words which exist simultaniously in every news, later on is just clustering these words  togther in groups or clusters. again idk how to call it exacly, but I'm trying okay???
 
 MR. ANDREW SAID THAT THERE IS NOT EVEN ONE EMPLOYE IN GOOGLE WHO IS JUST  GROUPING THE WORDS IN NEWS FR??? 
+
+**Unsupervised learning pros**
+* you dont need to know what is what, all you need is for your data to have some specific features <numbers, words ... and so on>
+
+### Clustering - grouping customers
+Basing on given data (hobby of customers) the algorithm gives us the clusters of customers. 
+![alt text](images/clustering.png)
+
+## Unsupervised learning part 2
+
+In unsupervised learning data only comes with inputs `x` but not outputs with labels `y`. Algorithm has to find structure in the data.
+
+* Clustering :
+    * group similar data
+    * points together
+* Anomaly detection
+    * finds unusual data points
+* Dimensionality reduction (we dont know what is this yet but we will eventually in the future)
+    * Compress data using fewer numbers
+
+## Jupyter Notebook 
+ i use:
+ * python 3.12.4
+ * miniconda 3
+ * (ml_course.ipynb)
+this program makes work with machine learning easier because you can work with every line of code and its easier to understand your work. 
+
+# 
+
+
