@@ -57,4 +57,10 @@ If we want to use more inputs for example 2 and now we use [[size, age],[diagnos
 * regression - predict the numbers of infinitly many possible outputs
 * Classification - predict categories of the small number of possible outputs. 
 
+## Unsupervised Learning part 1
+Most used type of learning is the unsupervised learning. Is super just like supervised learning. hi hi. The main change is that (basing on the last example with tumor) we dont tell for algotith what is what. Algorithnm is just grouping the data in clusters thats why the main unsupervised Machine learning algorithm is called Clustering instead of ... idk somehthing else. Example of this algorithm is google news articles. They group the articles based on the similar data/words/dates in this articles that may be related one to another. 
+![alt text](images\google_news.png)
 
+Algorithm is finding words which exist simultaniously in every news, later on is just clustering these words  togther in groups or clusters. again idk how to call it exacly, but I'm trying okay???
+
+MR. ANDREW SAID THAT THERE IS NOT EVEN ONE EMPLOYE IN GOOGLE WHO IS JUST  GROUPING THE WORDS IN NEWS FR??? 
