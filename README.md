@@ -96,6 +96,21 @@ In unsupervised learning data only comes with inputs `x` but not outputs with la
 
 this program makes work with machine learning easier because you can work with every line of code and its easier to understand your work. 
 
-# 
+# Linear regression model
+
+## Linear regression model part 1
+**Problem**: make prediction about price of the house basing on the size of the house. 
+
+We will use: 
+* Regresion model for predicting numbers
+
+In this dataset, we get size in feet^2 and price of house in $1000's 
+
+Notation is: 
+* `x` = input variable feature (size of house)
+* `y` = output variable, target variable (price of house)
+**Single example** = (`x`,`y`)
+**Training example** = (`x_(i)`, `y_(i)`) the i-th example (1nd, 2nd, 3rd, etc)
+
 
 
