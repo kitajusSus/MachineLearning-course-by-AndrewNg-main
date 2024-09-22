@@ -141,3 +141,12 @@ There is nothing important to do here, just simple math equations you can find i
 
 Next video is about the visualisation of the cost function. ![eq](images/equasions.png)
 
+# Visualisation examples
+Optional Lab: 
+[other notebook](ml_course3.ipynb)
+Shows how to calculate the cost function and how to visualize with matplotlib, useful. thanks andrew uwu ng. 
+
+
+
+# Gradient Descent
+UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG. `pop smoke - dior is blasting rn`
