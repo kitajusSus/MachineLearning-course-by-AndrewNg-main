@@ -134,4 +134,10 @@ Because its relatyvley easy to work with,
 
 go to [JUPYTER NOTEBOOK 2](ml_course2.ipynb), I forgot to install a lot of libraries on this machine. womp womp situation fr. 
 
-I had probel with vsc couse it didnt saw a packeges in installed. Solving of this problem was to install them by using the terminal in vsc not in anaconda cmd crazy moment sorry I didnt know, but now I do. 
+I had problem with vsc couse it didnt saw a packeges I installed. Solving of this problem was to install them by using the terminal,  in vsc not in anaconda cmd crazy moment sorry I didnt know, but now I do. 
+
+## Linear regression - Cost Function
+There is nothing important to do here, just simple math equations you can find it in the internet. 
+
+Next video is about the visualisation of the cost function. ![eq](images/equasions.png)
+
