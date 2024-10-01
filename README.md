@@ -154,5 +154,6 @@ UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG. `pop smoke - dior is blasting rn`
 ## Gradient Descent algorithm 
 ![alt text](images/GRADIENT EQ.png)
 
-<alfa> - learning rate, how big step we take with learning
+alfa - learning rate, how big step we take with learning
 ![alt text](images/eq3.png)
+![alt text](images/eq4.png)
