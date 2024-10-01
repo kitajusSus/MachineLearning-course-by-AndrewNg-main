@@ -152,7 +152,7 @@ Shows how to calculate the cost function and how to visualize with matplotlib, u
 UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG. `pop smoke - dior is blasting rn`
 
 ## Gradient Descent algorithm 
-![alt text](images/GRADIENT EQ.png)
+![alt text](images/GRADIENT_EQ.png)
 
 alfa - learning rate, how big step we take with learning
 ![alt text](images/eq3.png)
