@@ -163,11 +163,12 @@ Learning rate is always a positive number!!!!!!!!!
 i dont think that I need to show you what a tan(x) is???. 
 
 NOW WE KNOW:
+
 **Bias** is like a personal opinion or belief that a machine learning model has. It's like when you have a hunch or a gut feeling about something, even if you don't have any evidence. In machine learning, bias helps the model make predictions even when there's no input data. It's like the model's default guess or tendency.
 
 **Weights** are like the importance or relevance that the model gives to different factors when making predictions. It's like when you consider some things more important than others when making a decision. In machine learning, weights are used to combine the input data in a smart way. Each input gets multiplied by its weight, and the results are added up to make a prediction.
 
-[simple gradient code](gradient.py)
+I MADE CODE WITH GRADIENT  -----> [simple gradient code](gradient.py) <-----
 
 # Learning rate parameter.
 
