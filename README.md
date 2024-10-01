@@ -157,3 +157,11 @@ UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG. `pop smoke - dior is blasting rn`
 alfa - learning rate, how big step we take with learning
 ![alt text](images/eq3.png)
 ![alt text](images/eq4.png)
+
+Learning rate is always a positive number!!!!!!!!!
+![alt text](images\curve.png)
+i dont think that I need to show you what a tan(x) is???. 
+
+
+# Learning rate parameter.
+
