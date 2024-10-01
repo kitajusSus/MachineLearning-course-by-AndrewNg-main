@@ -152,14 +152,14 @@ Shows how to calculate the cost function and how to visualize with matplotlib, u
 UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG. `pop smoke - dior is blasting rn`
 
 ## Gradient Descent algorithm 
-![alt text](images/GRADIENT_EQ.png)
+![gradient](images/GRADIENT_EQ.png)
 
 alfa - learning rate, how big step we take with learning
-![alt text](images/eq3.png)
-![alt text](images/eq4.png)
+![eq3](images/eq3.png)
+![eq4](images/eq4.png)
 
 Learning rate is always a positive number!!!!!!!!!
-![alt text](images\curve.png)
+![curve](images/curve.png)
 i dont think that I need to show you what a tan(x) is???. 
 
 NOW WE KNOW:
