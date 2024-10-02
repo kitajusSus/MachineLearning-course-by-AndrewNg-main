@@ -173,3 +173,37 @@ I MADE CODE WITH GRADIENT  -----> [simple gradient code](gradient.py) <-----
 # Learning rate parameter.
 
 lab 4  -----> [lab 4](ml_course4.ipynb) 
+## 1. The Gradient Descent Rule
+The gradient descent update rule is given as:
+\[
+W = W - \alpha \frac{\partial J(W, b)}{\partial W}
+\]
+Where:
+- **𝛼** is the learning rate.
+- \(\frac{\partial J(W, b)}{\partial W}\) is the derivative of the cost function.
+
+## 2. What Happens if the Learning Rate is Too Small?
+If the learning rate is too small (e.g., 𝛼 = 0.0000001), gradient descent takes **tiny baby steps**. Each step decreases the cost \( J \), but very slowly:
+- You start at some point on the cost function graph, and gradient descent takes **very small steps** toward the minimum.
+- This results in slow convergence, requiring **many iterations** to reach the minimum.
+
+## 3. What Happens if the Learning Rate is Too Large?
+If the learning rate is too large, gradient descent might **overshoot** the minimum:
+- You start near the minimum, but instead of taking a small step, gradient descent takes a **huge step**, overshooting the minimum.
+- Each subsequent step moves further away from the minimum, causing the cost to increase, and the solution may **diverge**.
+
+## 4. What Happens if W is Already at the Minimum?
+If your parameter \( W \) is already at a local minimum, gradient descent does nothing:
+- At the local minimum, the **derivative is zero**, so the update rule becomes:
+  \[
+  W = W - \alpha \cdot 0 = W
+  \]
+- Gradient descent leaves \( W \) unchanged, which is what we want at a minimum.
+
+## 5. Automatically Taking Smaller Steps
+As you get closer to the minimum, the **derivative** becomes smaller, leading to **smaller update steps**:
+- Even with a fixed learning rate, gradient descent naturally takes smaller steps as you approach the minimum.
+- This allows gradient descent to converge to the local minimum.
+
+## Conclusion
+This video explains the importance of choosing the right learning rate \( \alpha \) for efficient convergence. Too small a learning rate makes gradient descent slow, while too large a learning rate can cause it to diverge. The behavior of gradient descent near a minimum shows why it's a powerful algorithm for optimization tasks.
