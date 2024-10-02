@@ -172,4 +172,4 @@ I MADE CODE WITH GRADIENT  -----> [simple gradient code](gradient.py) <-----
 
 # Learning rate parameter.
 
-
+lab 4  -----> [lab 4](ml_course4.ipynb) 
