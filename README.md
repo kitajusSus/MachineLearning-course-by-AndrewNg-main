@@ -205,5 +205,38 @@ As you get closer to the minimum, the **derivative** becomes smaller, leading to
 - Even with a fixed learning rate, gradient descent naturally takes smaller steps as you approach the minimum.
 - This allows gradient descent to converge to the local minimum.
 
-## Conclusion
-This video explains the importance of choosing the right learning rate \( \alpha \) for efficient convergence. Too small a learning rate makes gradient descent slow, while too large a learning rate can cause it to diverge. The behavior of gradient descent near a minimum shows why it's a powerful algorithm for optimization tasks.
+# Gradient descent for linear regression.
+## Gradient Descent Algorithm
+The gradient descent algorithm helps us find the values of **w** and **b** that minimize the cost function \(J(w, b)\). The update rules for **w** and **b** are derived using calculus.
+
+1. **Update rule for \(w\):**
+   
+   $$ w := w - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial w} $$
+
+   Where the partial derivative of the cost function with respect to \(w\) is:
+
+   $$ \\frac{\\partial J(w,b)}{\\partial w} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) \cdot x^{(i)} $$
+
+2. **Update rule for \(b\):**
+
+   $$ b := b - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial b} $$
+
+   Where the partial derivative of the cost function with respect to \(b\) is:
+
+   $$ \\frac{\\partial J(w,b)}{\\partial b} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) $$
+
+### Why These Formulas?
+These formulas come from taking the derivatives of the cost function. If you’re familiar with calculus, the 1/2 in the cost function was chosen to simplify the derivative formulas, as the "2" from the squared term cancels out. The key takeaway is that these derivatives give us the direction in which we need to adjust **w** and **b** to minimize the cost function.
+
+### Gradient Descent Steps
+Gradient descent works by updating **w** and **b** simultaneously until the values converge to the global minimum of the cost function. Here’s the process in short:
+
+1. Initialize **w** and **b** to some values.
+2. Compute the partial derivatives \(\\frac{\\partial J(w,b)}{\\partial w}\) and \(\\frac{\\partial J(w,b)}{\\partial b}\).
+3. Update **w** and **b** using the gradient descent update rules.
+4. Repeat the process until convergence, i.e., until the cost function stops changing significantly.
+
+### Convex Cost Function and Global Minimum
+When you're using the squared error cost function with linear regression, the cost function will always be a convex function. This means it’s shaped like a bowl and has a single global minimum. Because of this property, gradient descent is guaranteed to converge to this global minimum, as long as the learning rate **α** is chosen properly.
+
+
