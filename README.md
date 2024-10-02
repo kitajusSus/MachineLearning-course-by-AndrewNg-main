@@ -211,19 +211,19 @@ The gradient descent algorithm helps us find the values of **w** and **b** that 
 
 1. **Update rule for $w$:**
    
-   $$ w := w - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial w} $$
+   $ w := w - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial w} $
 
    Where the partial derivative of the cost function with respect to \(w\) is:
 
-   $$ \\frac{\\partial J(w,b)}{\\partial w} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) \cdot x^{(i)} $$
+   $ \\frac{\\partial J(w,b)}{\\partial w} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) \cdot x^{(i)} $
 
 2. **Update rule for $b$:**
 
-   $$ b := b - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial b} $$
+   $ b := b - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial b} $
 
    Where the partial derivative of the cost function with respect to \(b\) is:
 
-   $$ \\frac{\\partial J(w,b)}{\\partial b} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) $$
+   $ \\frac{\\partial J(w,b)}{\\partial b} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) $
 
 ### Why These Formulas?
 These formulas come from taking the derivatives of the cost function. If you’re familiar with calculus, the 1/2 in the cost function was chosen to simplify the derivative formulas, as the "2" from the squared term cancels out. The key takeaway is that these derivatives give us the direction in which we need to adjust **w** and **b** to minimize the cost function.
@@ -232,7 +232,7 @@ These formulas come from taking the derivatives of the cost function. If you’r
 Gradient descent works by updating **w** and **b** simultaneously until the values converge to the global minimum of the cost function. Here’s the process in short:
 
 1. Initialize **w** and **b** to some values.
-2. Compute the partial derivatives \(\\frac{\\partial J(w,b)}{\\partial w}\) and \(\\frac{\\partial J(w,b)}{\\partial b}\).
+2. Compute the partial derivatives $\frac{\\partial J(w,b)}{\\partial w}$ and $\frac{\\partial J(w,b)}{\\partial b}$
 3. Update **w** and **b** using the gradient descent update rules.
 4. Repeat the process until convergence, i.e., until the cost function stops changing significantly.
 
