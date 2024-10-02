@@ -175,12 +175,12 @@ I MADE CODE WITH GRADIENT  -----> [simple gradient code](gradient.py) <-----
 lab 4  -----> [lab 4](ml_course4.ipynb) 
 ## 1. The Gradient Descent Rule
 The gradient descent update rule is given as:
-\[
-W = W - \alpha \frac{\partial J(W, b)}{\partial W}
-\]
+
+$W = W - \alpha \frac{\partial J(W, b)}{\partial W}$
+
 Where:
 - **𝛼** is the learning rate.
-- \(\frac{\partial J(W, b)}{\partial W}\) is the derivative of the cost function.
+- $\frac{\partial J(W, b)}{\partial W}$ is the derivative of the cost function.
 
 ## 2. What Happens if the Learning Rate is Too Small?
 If the learning rate is too small (e.g., 𝛼 = 0.0000001), gradient descent takes **tiny baby steps**. Each step decreases the cost \( J \), but very slowly:
@@ -193,12 +193,12 @@ If the learning rate is too large, gradient descent might **overshoot** the mini
 - Each subsequent step moves further away from the minimum, causing the cost to increase, and the solution may **diverge**.
 
 ## 4. What Happens if W is Already at the Minimum?
-If your parameter \( W \) is already at a local minimum, gradient descent does nothing:
+If your parameter $ W $ is already at a local minimum, gradient descent does nothing:
 - At the local minimum, the **derivative is zero**, so the update rule becomes:
-  \[
-  W = W - \alpha \cdot 0 = W
-  \]
-- Gradient descent leaves \( W \) unchanged, which is what we want at a minimum.
+  
+  $W = W - \alpha \cdot 0 = W$
+  
+- Gradient descent leaves $ W $ unchanged, which is what we want at a minimum.
 
 ## 5. Automatically Taking Smaller Steps
 As you get closer to the minimum, the **derivative** becomes smaller, leading to **smaller update steps**:
@@ -207,9 +207,9 @@ As you get closer to the minimum, the **derivative** becomes smaller, leading to
 
 # Gradient descent for linear regression.
 ## Gradient Descent Algorithm
-The gradient descent algorithm helps us find the values of **w** and **b** that minimize the cost function \(J(w, b)\). The update rules for **w** and **b** are derived using calculus.
+The gradient descent algorithm helps us find the values of **w** and **b** that minimize the cost function $J(w, b)$. The update rules for **w** and **b** are derived using calculus.
 
-1. **Update rule for \(w\):**
+1. **Update rule for $w$:**
    
    $$ w := w - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial w} $$
 
@@ -217,7 +217,7 @@ The gradient descent algorithm helps us find the values of **w** and **b** that 
 
    $$ \\frac{\\partial J(w,b)}{\\partial w} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right) \cdot x^{(i)} $$
 
-2. **Update rule for \(b\):**
+2. **Update rule for $b$:**
 
    $$ b := b - \\alpha \\cdot \\frac{\\partial J(w,b)}{\\partial b} $$
 
