@@ -205,7 +205,9 @@ As you get closer to the minimum, the **derivative** becomes smaller, leading to
 - Even with a fixed learning rate, gradient descent naturally takes smaller steps as you approach the minimum.
 - This allows gradient descent to converge to the local minimum.
 
-# Gradient descent for linear regression.
+
+
+# **Gradient descent for linear regression.**
 ## Gradient Descent Algorithm
 The gradient descent algorithm helps us find the values of **w** and **b** that minimize the cost function $J(w, b)$. The update rules for **w** and **b** are derived using calculus.
 
@@ -240,3 +242,42 @@ Gradient descent works by updating **w** and **b** simultaneously until the valu
 When you're using the squared error cost function with linear regression, the cost function will always be a convex function. This means it’s shaped like a bowl and has a single global minimum. Because of this property, gradient descent is guaranteed to converge to this global minimum, as long as the learning rate **α** is chosen properly.
 
 
+# Running gradient descent
+
+Gradient descent is an iterative optimization algorithm used to find the minimum of a function. In the context of linear regression, this function is the cost function which measures the difference between the predicted values and the actual values.   
+
+## How it works:
+- Initialization: We start with an initial guess for the parameters (slope, w, and y-intercept, b) of the linear equation.
+- Calculate the gradient: The gradient points in the direction of the steepest ascent of the cost function at the current point.
+- Update parameters: We update the parameters in the opposite direction of the gradient, taking a small step towards the minimum of the cost function. This step size is determined by the learning rate.
+- Repeat: Steps 2 and 3 are repeated until the algorithm converges to a minimum or a maximum number of iterations is reached.
+- Mathematical representation:
+The linear equation is represented as:
+
+$y = wx + b$
+The cost function (often mean squared error) is:
+
+$J(w, b) = 1/2m * Σ(y_pred - y_actual)^2$
+where:
+
+m is the number of training examples
+$y_pred$ is the predicted value
+$y_actual$ is the actual value
+The gradient descent update rule is:
+
+$w = w - α * ∂J/∂w$
+$b = b - α * ∂J/∂b$
+where:
+
+$α$ is the learning rate
+## Batch Gradient Descent
+In batch gradient descent, the gradients are computed using all the training examples in the dataset. This ensures that the updates are made in the direction that minimizes the overall cost function.
+
+**Advantages**:
+
+- Guarantees convergence to the global minimum for convex cost functions.
+- Provides a good understanding of the optimization process.
+
+**Disadvantages**:
+
+Can be computationally expensive for large datasets.
