@@ -255,9 +255,11 @@ Gradient descent is an iterative optimization algorithm used to find the minimum
 The linear equation is represented as:
 
 $y = wx + b$
+
 The cost function (often mean squared error) is:
 
-$J(w, b) = 1/2m * Σ(y_pred - y_actual)^2$
+$J(w, b) = 1/2m * Σ(y_{pred} - y_{actual})^2$
+
 where:
 
 m is the number of training examples
@@ -265,8 +267,9 @@ $y_pred$ is the predicted value
 $y_actual$ is the actual value
 The gradient descent update rule is:
 
-$w = w - α * ∂J/∂w$
-$b = b - α * ∂J/∂b$
+$w = w - α * \frac{∂J}{∂w}$
+
+$b = b - α * \frac{∂J}{∂b}$
 where:
 
 $α$ is the learning rate
