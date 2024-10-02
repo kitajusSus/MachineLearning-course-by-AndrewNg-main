@@ -263,8 +263,8 @@ $J(w, b) = 1/2m * Σ(y_{pred} - y_{actual})^2$
 where:
 
 m is the number of training examples
-$y_pred$ is the predicted value
-$y_actual$ is the actual value
+$y_{pred}$ is the predicted value
+$y_{actual}$ is the actual value
 The gradient descent update rule is:
 
 $w = w - α * \frac{∂J}{∂w}$
