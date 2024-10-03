@@ -297,7 +297,7 @@ for example we have:
 - age of home in years(x4)
 - and price obv(x5)
 
-NOW WE HAVE MORE THAN TWO VARIABLES. WHAT WE GONNA DO !!!!! *SCARED EMOJI*
+NOW WE HAVE MORE THAN TWO VARIABLES. WHAT WE GONNA DO !!!!! :fearful:
 
 >You are safe bby girl, daddy Andrew will show you the way.
 
@@ -310,16 +310,43 @@ $f_{w,b}=w_1x_1+w_2x_2+w_3x_3+w_4x_4+w_5x_5+b$
 
 PARAMETERS AND FEATURES
 
-$\vec{w} = [w_1 , w_2 , w_3] $ n=3
+$\vec{w} = [w_1 , w_2 , w_3]$ n=3
 
 b is a scalar (number)
 
 $\vec{x}=[x_1 , x_2 , x_3]$
 
 Linear algebra: count from 1 
+
 ```python
+import numpy as np
 w = np.array([1.0,2.5,-3.3])
 b = 4
 x = np.array([10,20,30])
+print("1st element of w array is w[0]", w[0])
+```
+code counts from 0 
 
+### Withour vectorization (mid option ):
+:sad:
+
+$f_{w,b}(\vec{x})= w_1x_1+w_2x_2+w_3x_3+b$
+
+```python
+f = w[0] * x[0] +
+    w[1] * x[1] +
+    w[2] * x[2] + b
+```
+```python 
+f = 0 
+for i in range(0,n):
+    f = f + w[i] * x[i]
+f = f+b
+print(f)
+```
+### Vectorization(pogchamp option)
+$f_{w,b}(\vec{x})= \vec{w} * \vec{x} +b$
+
+```python
+f = np.dot(w,x)+b
 ```
