@@ -348,5 +348,26 @@ print(f)
 $f_{w,b}(\vec{x})= \vec{w} * \vec{x} +b$
 
 ```python
-f = np.dot(w,x)+b
+f = np.dot(w,x)+b #DOT PRODUCT OF TWO VECTORS
 ```
+
+## Vectorization part 2
+ANDREW WILL TELL US HOW VECTORIZED IMPLEMENTATION MAY WORK ON MINE COMPUTER (Don't brace yourselves maybe yours too )
+
+### Without Vectorization 
+lets look at this for loop
+```python
+
+for i in range(0,16):
+    f = f + w[i] * x[i]
+
+```
+do this for every single index but with vectorization (next episode)
+
+### WITH VECTORIZATION 
+
+```python
+np.dot(w,x)
+```
+EVERYTHING IS DONE AT THE SAME TIME PARALLEL TO EACHOTHER
+![PICTURE OF GRAPH 1](images/B.png)
