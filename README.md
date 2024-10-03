@@ -371,3 +371,6 @@ np.dot(w,x)
 ```
 EVERYTHING IS DONE AT THE SAME TIME PARALLEL TO EACHOTHER
 ![PICTURE OF GRAPH 1](images/B.png)
+
+next lab will be banger see you soon. 
+
