@@ -284,3 +284,21 @@ In batch gradient descent, the gradients are computed using all the training exa
 **Disadvantages**:
 
 Can be computationally expensive for large datasets.
+
+
+# REGRESSION WITH MULTIPLE INPUT VARIABLES
+week 2 pogchampo 
+## Multible features (variables)
+for example we have:
+- size (x1)
+- number of bedrooms (x2)
+- number of floors (x3)
+- age of home in years(x4)
+- and price obv(x5)
+NOW WE HAVE MORE THAN TWO VARIABLES. WHAT WE GONNA DO !!!!! *SCARED EMOJI*
+
+<You are safe bby girl, daddy Andrew will show you the way.>
+
+Our model will look like this: 
+$f_{w,b}=w_1x_1+w_2x_2+w_3x_3+w_4x_4+w_5x_5+b$
+
