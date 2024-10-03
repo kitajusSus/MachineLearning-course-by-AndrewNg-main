@@ -149,7 +149,8 @@ Shows how to calculate the cost function and how to visualize with matplotlib, u
 
 
 # Gradient Descent
-UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG. `pop smoke - dior is blasting rn`
+UUUUUUUUUUUUUUU POGCHAMP REAL MATH  INCOMIUNG.
+>pop smoke - dior is blasting rn
 
 ## Gradient Descent algorithm 
 ![gradient](images/GRADIENT_EQ.png)
@@ -295,10 +296,30 @@ for example we have:
 - number of floors (x3)
 - age of home in years(x4)
 - and price obv(x5)
+
 NOW WE HAVE MORE THAN TWO VARIABLES. WHAT WE GONNA DO !!!!! *SCARED EMOJI*
 
-<You are safe bby girl, daddy Andrew will show you the way.>
+>You are safe bby girl, daddy Andrew will show you the way.
 
 Our model will look like this: 
+
 $f_{w,b}=w_1x_1+w_2x_2+w_3x_3+w_4x_4+w_5x_5+b$
 
+# VECTORIZATION 
+## Vectorization part 1
+
+PARAMETERS AND FEATURES
+
+$\vec{w} = [w_1 , w_2 , w_3] $ n=3
+
+b is a scalar (number)
+
+$\vec{x}=[x_1 , x_2 , x_3]$
+
+Linear algebra: count from 1 
+```python
+w = np.array([1.0,2.5,-3.3])
+b = 4
+x = np.array([10,20,30])
+
+```
