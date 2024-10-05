@@ -43,7 +43,7 @@ print("Final Bias:", b)
 plt.figure(figsize=(10, 6))
 
 # Plot weights
-for i in range(len(w_history[0])):
+for i, _ in enumerate(w_history[0]):
     plt.plot(range(num_iterations + 1), [w[i] for w in w_history], label=f'Weight W{i+1}')
 
 # Plot bias
