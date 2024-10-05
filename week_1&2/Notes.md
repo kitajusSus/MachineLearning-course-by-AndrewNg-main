@@ -226,7 +226,7 @@ The gradient descent algorithm helps us find the values of **w** and **b** that 
 
    Where the partial derivative of the cost function with respect to \(b\) is:
 
-   $\frac{\\partial J(w,b)}{\\partial b} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right)$
+   $\frac{\partial J(w,b)}{\\partial b} = \\frac{1}{m} \sum_{i=1}^{m} \left( f(x^{(i)}) - y^{(i)} \\right)$
 
 ### Why These Formulas?
 These formulas come from taking the derivatives of the cost function. If you’re familiar with calculus, the 1/2 in the cost function was chosen to simplify the derivative formulas, as the "2" from the squared term cancels out. The key takeaway is that these derivatives give us the direction in which we need to adjust **w** and **b** to minimize the cost function.
@@ -403,3 +403,4 @@ Disadvantages:
 #### **When you need to know** : 
 - Normale equation method may be used in machine learning libraries that implement linear regression
 - gradient descent is  the recommended method for finding parameters w,b 
+(lab6)[ml_course6.ipynb]
