@@ -1,7 +1,7 @@
 # Machine Learning Course by Andrew Ng
 
-This repository contains materials and exercises for the Machine Learning course by Andrew Ng. The course provides a broad introduction to machine learning, data mining, and statistical pattern recognition.
-
+This repository contains my journey with the machine learning course by  AndrewNg from `coursera.com`
+* sorry for my english descriptions
 ## Repository Structure
 
 - 

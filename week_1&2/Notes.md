@@ -1,6 +1,6 @@
-# MachineLearning-course-by-AndrewNg
-This repository contains my journey with the machine learning course by  AndrewNg from `coursera.com`
-* sorry for my english descriptions
+# About this notes 
+I changed my file structure in the middle of course. I am trying to make it as much readable as I can. but in this notes we got full 1st week and first half of week 2. 
+
 # Chapter 1  **Supervised machine learning - Regresion and Clasification**
 ## What is machine learning?
 >"Field of study that gives computers the ability to learn withour being explicitly programed" ~ Arthur Samuel (1959)

@@ -1,7 +1,7 @@
 # another week of studing ppl WELCOME WELCOME
 
 # Feature Scaling in Gradient Descent
-
+[link to the video from course](https://www.coursera.org/learn/machine-learning/lecture/KMDV3/feature-scaling-part-1)
 ## Introduction
 - **Feature Scaling**: Technique to enable gradient descent to run much faster.
 - **Example**: Predicting house price using two features:
