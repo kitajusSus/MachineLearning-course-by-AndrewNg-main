@@ -374,3 +374,32 @@ EVERYTHING IS DONE AT THE SAME TIME PARALLEL TO EACHOTHER
 
 next lab will be banger see you soon. [Jupyter testbook 5](ml_course5.ipynb)
 
+## Gradient descent for multiple linear regresion 
+**previous notation**
+
+prameters: $w_1, ... , w_n$
+model: $f_{\vec{w},b}= w_1x_1+ ... + w_nx_n$
+cost function: $J(w_1,...w_n,b)$
+gradient descent:
+
+**vector notation**
+$\vec{w}= [w_1 ... w_n]$
+b - still a number (banger)
+$f_{\vec{w},b}(\vec{x}) = \vec{w} \cdot \vec{x} + b$
+
+I don't like writing same equasions every time, they are here and you are able to find it for sure if you ever needed to. 
+
+
+### An alternative to gradient descent
+
+Normal equation:
+   - only for linear regresion
+   - solve for w,b without iterations
+
+Disadvantages:
+- Doesn't generalize to other learning algorithms.
+- slow when we have big number of features (>10 000)
+
+#### **When you need to know** : 
+- Normale equation method may be used in machine learning libraries that implement linear regression
+- gradient descent is  the recommended method for finding parameters w,b 
