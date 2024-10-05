@@ -32,4 +32,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Special thanks to Andrew Ng for creating this comprehensive course on machine learning.
+- Thank you for creating this course and giving me the opportunity to participate in it.
