@@ -69,4 +69,4 @@ How to scale features?
 
 If we get $x_1$ in range $300<x_1<2000$ we just need to devide $x_1$ by the biggest posible value (2000)  $x_{1, scaled} = \frac{x_1}{2000}$, which gives us  $0.15<x_{1, scaled}<1$
  
-
+nothing new. 11.10.2024
