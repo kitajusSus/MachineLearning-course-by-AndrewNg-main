@@ -39,3 +39,34 @@
 
 ## Wnioski
 jakoś leci i będzie [dobrze spokojnie powoli do przodu](https://www.youtube.com/watch?v=QPM2spkcSeM)
+
+# Feature scaling PART 1###
+Feature scaling is used to make faster predictions, ex:
+
+$\text{price} = w_1x_1 + w_2x_2 +b$
+
+$x_1$ is size of house in range 300 to 2000 ($ft^2$) (big numbers)
+
+$x_2$ is a number of bedrooms in range 0 - 5  (small numbers)
+
+And the problem is that, our numbers are not in similar range.
+What is the size of parameters $w_1, w_2$ if aour training example is $x_1 = 2000$, $x_2= 5$, $price = $500k$ ???
+
+$w_1 = 50, w_2= 0.1 , b=50$ after quick math we will find out that, our prediction is equal to $100 050.5**k** (It's much bigger number than ours real price which was $500k)
+
+**Other posibility**
+$w_1 = 0.1, w_2= 50 , b=50$ 
+This model finds the value of house ~ $500k.
+>more reasonable
+
+![picture 1](images\image.png)
+
+To avoid situations like this, when we get wrong parameters by our model, we can **scale the features**, to do this we use normalization, just like we do it in vector normalization. After the entire operation, once we have our parameters, we can restore them to their previous values if we want to (its not permament). If we use gradient descend  now with changed values we should get nice little circle. 
+
+# Feature scaling part 2 :smile: yippie
+
+How to scale features?
+
+If we get $x_1$ in range $300<x_1<2000$ we just need to devide $x_1$ by the biggest posible value (2000)  $x_{1, scaled} = \frac{x_1}{2000}$, which gives us  $0.15<x_{1, scaled}<1$
+ 
+
