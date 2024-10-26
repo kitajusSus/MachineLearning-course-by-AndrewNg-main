@@ -70,3 +70,20 @@ How to scale features?
 If we get $x_1$ in range $300<x_1<2000$ we just need to devide $x_1$ by the biggest posible value (2000)  $x_{1, scaled} = \frac{x_1}{2000}$, which gives us  $0.15<x_{1, scaled}<1$
  
 nothing new. 11.10.2024
+
+# Cheking gradient descent for convergence
+We need to make sure that gradient descent is working correctly. 
+![LEARNING CURVE](images\image2.png)
+We can see on the picture that, $J(\vec{w},b)$ likely converged by 400 iterations. Using this curve you can spot wwheter or not learning curve is converged. 
+
+# Choosing a learning rate. 
+Bad learning curve example:
+![alsadadat](images\4.png). 
+If we get some crazy function on a graph we can do 2 things:
+1. find this bug in our code
+2. make smaller learning rate
+![bombaclat](images\5.png)
+
+![bajojajo](image.png)
+
+[other notebook](LEARNING_RATE.ipynb)
