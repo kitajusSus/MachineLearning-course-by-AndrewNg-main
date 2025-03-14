@@ -42,4 +42,11 @@ This all here are hidden Neurons
 *Input of layer 2 is output of Layer1*
 
 And because Layer 2 has only one neuron, it means we do the same computation but only once. It a scalar value 
-$$ a_n^{[2]}= g(\vec{w_n} \cdot \vec{a^{[2]}} + b_n)$$$
+$$a_n^{[2]}= g(\vec{w_n} \cdot \vec{a^{[2]}} + b_n)$$
+
+Later it does a prediction, 
+> is $\vec{a^{[2]}}$ >= 0.5
+if yes then y = 1, if  no y=0
+
+# More Complex Neural Networks
+
