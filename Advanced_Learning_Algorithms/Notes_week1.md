@@ -25,5 +25,21 @@ it wasnt difficult its not even necesary to write anything about this beside tha
 # Neural Network Layer.
 HOW TO BUILD NEURAL NETWORK
 
-$[\vec{w_n},  b_n] a_n= g(\vec{w_n} \cdot \vec{x} + b_n$
+**Layer 1**
 
+$[\vec{w_n},  b_n] a_n= g(\vec{w_n} \cdot \vec{x} + b_n)$
+
+We make this computation for Every data in our "vector".  
+
+To make it easier g(z) function looks like this:
+
+$$g(z) = \frac{1}{1+e^{-z}}$$
+
+This all here are hidden Neurons
+
+**Layer 2** 
+
+*Input of layer 2 is output of Layer1*
+
+And because Layer 2 has only one neuron, it means we do the same computation but only once. It a scalar value 
+$$ a_n^{[2]}= g(\vec{w_n} \cdot \vec{a^{[2]}} + b_n)$$$
